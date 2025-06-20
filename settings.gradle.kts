@@ -17,3 +17,6 @@ rootProject.name = "Project1"
 
 include(":app")
 include("new-module")
+include("m1l1-first")
+include("m1l2-basic")
+include("m2l1-basic")
