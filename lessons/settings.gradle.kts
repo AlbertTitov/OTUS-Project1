@@ -13,6 +13,8 @@ pluginManagement {
 // Include the `app` and `utils` subprojects in the build.
 // If there are changes in only one of the projects, Gradle will rebuild only the one that has changed.
 // Learn more about structuring projects with Gradle - https://docs.gradle.org/8.7/userguide/multi_project_builds.html
-rootProject.name = "Project1"
+rootProject.name = "lessons"
 
-includeBuild("lessons")
+include("m1l1-first")
+include("m1l2-basic")
+include("m2l1")
